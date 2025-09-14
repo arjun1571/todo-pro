@@ -30,16 +30,7 @@ http://localhost:5173
 - Email: **test@gmail.com**
 - Password: **123456**
 
-## Structure
 
-- `src/features/auth/*` — `authSlice`, `authApi`
-- `src/features/todos/todosApi.ts` — RTK Query endpoints
-- `src/lib/mockApi.ts` — In-memory DB + functions
-- `src/lib/rtkFakeBaseQuery.ts` — RTK Query baseQuery router
-- `src/pages/*` — Login, Register, Todos
-- `src/components/*` — UI pieces
-- `src/routes/ProtectedRoute.tsx`
-- `src/schemas/*` — Zod schemas
 
 ## Notes
 

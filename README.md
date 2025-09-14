@@ -13,6 +13,8 @@ A small SPA that demonstrates auth, protected routes, and Todos CRUD with filter
 - Mock API: In-app `fakeBaseQuery` (latency + random failures), follows the contract
   - Endpoints: `/auth/login`, `/auth/register`, `/todos` (GET/POST), `/todos/:id` (PATCH/DELETE)
   - Authorization header uses a mock token `Bearer mock-<expEpochMs>`
+- Custom reusable components: Input, Button, Select, Modal for consistent UI and forms
+
 
 ## Quick Start
 

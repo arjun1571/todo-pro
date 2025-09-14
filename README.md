@@ -13,6 +13,8 @@ A small SPA that demonstrates auth, protected routes, and Todos CRUD with filter
 - Mock API: In-app `fakeBaseQuery` (latency + random failures), follows the contract
   - Endpoints: `/auth/login`, `/auth/register`, `/todos` (GET/POST), `/todos/:id` (PATCH/DELETE)
   - Authorization header uses a mock token `Bearer mock-<expEpochMs>`
+- Custom reusable components: Input, Button, Select, Modal for consistent UI and forms
+
 
 ## Quick Start
 
@@ -30,16 +32,7 @@ http://localhost:5173
 - Email: **test@gmail.com**
 - Password: **123456**
 
-## Structure
 
-- `src/features/auth/*` — `authSlice`, `authApi`
-- `src/features/todos/todosApi.ts` — RTK Query endpoints
-- `src/lib/mockApi.ts` — In-memory DB + functions
-- `src/lib/rtkFakeBaseQuery.ts` — RTK Query baseQuery router
-- `src/pages/*` — Login, Register, Todos
-- `src/components/*` — UI pieces
-- `src/routes/ProtectedRoute.tsx`
-- `src/schemas/*` — Zod schemas
 
 ## Notes
 
